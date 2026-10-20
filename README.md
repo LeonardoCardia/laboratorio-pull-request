@@ -14,7 +14,7 @@ A função deve retornar `False` se a entrada não for `str`, tiver espaço, nã
 ## Execução dos testes
 
 ```bash
-python -m unittest discover -s tests -v
+pytest tests/ -v
 ```
 
 ## Fluxo solicitado
